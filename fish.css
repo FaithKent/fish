@@ -1,0 +1,35 @@
+@include media-breakpoint-up(xs) {
+  html {
+    font-size: 16px;
+  }
+}
+
+@include media-breakpoint-up(md) {
+  html {
+    font-size: 18px;
+  }
+}
+
+@include media-breakpoint-up(lg) {
+  html {
+    font-size: 20px;
+  }
+}
+
+body {
+	background-color: #4a2323 !important;
+}
+
+* {
+	color:white;
+}
+
+.card {
+	color:white;
+	background-color: #3d1c1c !important;
+	margin-top: 20px;
+}
+
+#header > img {
+	width: 100%;
+}
