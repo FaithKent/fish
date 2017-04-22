@@ -33,3 +33,13 @@ body {
 #header > img {
 	width: 100%;
 }
+
+.sticky.is-sticky {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  z-index: 1000;
+  width: 100%;
+  background-color: #4a2323 !important;
+}
